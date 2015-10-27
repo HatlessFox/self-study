@@ -1,0 +1,6 @@
+(defun new-union (a b)
+  (dolist (e b)
+    (if (not (member e a))
+	(setf a (append a (list e))) ))
+  a)
+;(new-union '(a b c) '(b a d))
