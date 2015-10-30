@@ -1,0 +1,15 @@
+(defun bin-search (v obj &key (key #'identity) (test #'<)
+		     (start 0) (end (length v)))
+  (if (<= end start) nil
+    (let* ((mid-i (floor (+ start (/ (- end start) 2))))
+	   (mid-e (funcall key (aref v mid-i))))
+      (cond ((eql mid-e obj) mid-i)
+	    ((funcall test mid-e obj)
+	     (bin-search v obj :start (1+ mid-i) :end end))
+	    (t (bin-search v obj :start start :end (1- mid-i)))))))
+
+;;xs(bin-search #(1 2 3 4 6 7) 2)
+;;(bin-search #(1 2 3 4 6 7) -1)
+;;(bin-search #(1 2 3 4 6 7) 20)
+;;(bin-search #(1 2 3 4 6 7) 5)
+;;(bin-search #(1 2 3 4 6 7) 7)
