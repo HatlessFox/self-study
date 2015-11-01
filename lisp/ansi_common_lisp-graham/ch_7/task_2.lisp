@@ -1,0 +1,6 @@
+(defun my-cat (fname)
+  (with-open-file (stream fname :direction :input)
+		  (do ((line (read stream nil 'eof)
+			     (read stream nil 'eof))
+		       (acc nil (cons line acc)))
+		      ((eql line 'eof) (reverse acc)))))
