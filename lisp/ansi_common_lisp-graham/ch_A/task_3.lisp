@@ -1,0 +1,7 @@
+(defmacro n-th (n &rest exs)
+  (let ((lim (gensym)))
+    `,(do ((lim n)
+	   (i 1 (1+ i))
+	   (e exs (cdr e)))
+	  ((or (null e)
+	       (= i lim)) (car e)))))
