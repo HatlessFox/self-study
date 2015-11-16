@@ -301,7 +301,7 @@ def submit_solution(name, sid, output, source):
     data     = urllib.parse.urlencode(values).encode('utf-8')
     req      = urllib.request.Request(submit_url, data)
     with urllib.request.urlopen(req) as response:
-        return response.readall().decode('utf-8')
+        return response.read().decode('utf-8')
 
 def import_module(module):
     mpath, mname = os.path.split(module)
