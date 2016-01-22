@@ -2,3 +2,9 @@
 __pycache__
 *#
 *.out
+
+
+**/algorithms_4th-sedgewick_wayne/**/.metadata/**
+**/algorithms_4th-sedgewick_wayne/**/.recommenders/**
+**/algorithms_4th-sedgewick_wayne/**/bin/**
+**/algorithms_4th-sedgewick_wayne/**/RemoteSystemsTempFiles/**
