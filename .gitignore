@@ -2,7 +2,7 @@
 __pycache__
 *#
 *.out
-
+.DS_Store
 
 **/algorithms_4th-sedgewick_wayne/**/.metadata/**
 **/algorithms_4th-sedgewick_wayne/**/.recommenders/**
