@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 import edu.princeton.cs.algs4.Queue;
 import edu.princeton.cs.algs4.Stack;
-import utils.Tester;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+import utils.QA;
 
 /*
  * Task 1.3.10
@@ -27,7 +29,7 @@ public class Task_10 {
         }
     }
     
-    private static class InfixToPostfix {
+    public static class InfixToPostfix {
         private Queue<String> consumer;
         private Stack<String> op_buffer;
         
@@ -65,15 +67,23 @@ public class Task_10 {
     
     /* Tests */
     
+    private static final boolean __RUN_TESTS = false;
+    
     private static void __runTests() {
-        Tester<String, String> tstr = new Tester<>(Task_10::toPostfix);
+        QA<String, String> tstr = new QA<>(Task_10::toPostfix);
         
         tstr.runTest("( 2 + 3 )", "2 3 +");
         tstr.runTest("( ( 1 + 2 ) + ( ( 3 / 4 ) * ( 5 - 6 ) ) )",
                      "1 2 + 3 4 / 5 6 - * +");
     }
     
+    private static void __cli() {
+        while (true) {
+            StdOut.println(toPostfix(StdIn.readLine()));
+        }
+    }
+    
     public static void main(String[] args) {
-        __runTests();
+        if (__RUN_TESTS) __runTests(); else __cli();
     }
 }

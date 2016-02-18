@@ -4,12 +4,12 @@ import java.util.function.Function;
 
 import edu.princeton.cs.algs4.StdOut;
 
-public class Tester<T, R> {
+public class QA<T, R> {
 
     private int test_id;
     private Function<T, R> testee;
     
-    public Tester(Function<T, R> testee) { this.testee = testee; }
+    public QA(Function<T, R> testee) { this.testee = testee; }
     
     public void runTest(T input, R expected_output) {
         StdOut.println(runTest(test_id++, testee, input, expected_output));
