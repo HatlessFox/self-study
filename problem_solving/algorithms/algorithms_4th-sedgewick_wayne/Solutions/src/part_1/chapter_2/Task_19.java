@@ -19,7 +19,7 @@ import edu.princeton.cs.algs4.StdOut;
  */
 public class Task_19 {
 
-    private static class Date {
+    public static class Date {
         private int day, month, year;
         
         public Date(String date) {
@@ -40,7 +40,7 @@ public class Task_19 {
         public String toString() { return String.format("%d/%d/%d", month, day, year); }
     }
 
-    private static class Transaction {
+    public static class Transaction {
         private Date date;
         private String user;
         private double amount;
