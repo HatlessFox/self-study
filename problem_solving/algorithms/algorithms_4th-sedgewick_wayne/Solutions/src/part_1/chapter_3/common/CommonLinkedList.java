@@ -3,7 +3,7 @@ package part_1.chapter_3.common;
 import java.util.Iterator;
 
 public class CommonLinkedList<T> implements Iterable<T>{
-    protected static class Node<T> {
+    public static class Node<T> {
         public T item;
         public Node<T> next;
         
