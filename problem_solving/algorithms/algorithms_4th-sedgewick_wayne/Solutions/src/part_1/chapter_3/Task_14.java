@@ -32,7 +32,7 @@ public class Task_14 {
         private void setElement(int i, String new_e) { data[(start_i + i) % data.length] = new_e; }
         
         private void moveElements(String[] dst) {
-            int suff_sz = data.length - start_i;
+            int suff_sz = Math.min(data.length - start_i, sz);
             System.arraycopy(data, start_i, dst, 0, suff_sz);
             System.arraycopy(data, 0, dst, suff_sz, sz - suff_sz);
             
