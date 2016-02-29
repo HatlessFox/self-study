@@ -3,6 +3,7 @@ __pycache__
 *#
 *.out
 .DS_Store
+*.pyc
 
 **/algorithms_4th-sedgewick_wayne/**/.metadata/**
 **/algorithms_4th-sedgewick_wayne/**/.recommenders/**
