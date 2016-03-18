@@ -28,7 +28,14 @@ public class Task_33 {
         T popRight();
     }
     
-    public static class DoubleLinkedListDeque<T> implements Deque<T> {
+    public static interface BackwardIterable<T> {
+        public Iterator<T> backIterator();
+    }
+    
+    public static interface BackwardIterableDeque<T> extends Deque<T>, BackwardIterable<T> {}
+    
+    public static class DoubleLinkedListDeque<T> implements
+        Deque<T>, BackwardIterable<T>, BackwardIterableDeque<T> {
         private DoubleLinkedList<T> holder = new DoubleLinkedList<>();
         private int size = 0;
         
@@ -67,17 +74,26 @@ public class Task_33 {
         
 
         @Override
-        public Iterator<T> iterator() { return new DequeIterator(); }
-
+        public Iterator<T> iterator() { return new DequeIterator(true); }
+        @Override
+        public Iterator<T> backIterator() { return new DequeIterator(false); }
+        
         private class DequeIterator implements Iterator<T> {
-            private DoubleNode<T> ptr = holder.head;
+            private DoubleNode<T> ptr;
+            private boolean is_fwd;
+            
+            public DequeIterator(boolean is_fwd) {
+                ptr = is_fwd ? holder.head : holder.tail;
+                this.is_fwd = is_fwd;
+            }
+            
             @Override
             public boolean hasNext() { return ptr != null; }
 
             @Override
             public T next() {
                 T data = ptr.payload;
-                ptr = ptr.next;
+                ptr = is_fwd ? ptr.next : ptr.prev;
                 return data;
             }
         }
