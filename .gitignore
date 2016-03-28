@@ -11,3 +11,7 @@ __pycache__
 **/algorithms_4th-sedgewick_wayne/**/RemoteSystemsTempFiles/**
 # src: http://algs4.cs.princeton.edu/code/
 **/algorithms_4th-sedgewick_wayne/**/large*
+
+##### TeB
+*.aux
+*.log
