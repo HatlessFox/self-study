@@ -1,12 +1,8 @@
 package part_1.chapter_3;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.function.BinaryOperator;
 
 import edu.princeton.cs.algs4.Stack;
-import edu.princeton.cs.algs4.StdOut;
 import utils.QA;
 
 /*
