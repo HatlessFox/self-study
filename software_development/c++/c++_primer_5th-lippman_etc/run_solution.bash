@@ -37,6 +37,7 @@ if [ $? -ne 0 ]; then
   exit -4
 fi
 
+echo Running...
 ./$EXECUTABLE
 echo status: $?
 rm $EXECUTABLE
