@@ -3,7 +3,7 @@
 * [Book site](http://algs4.cs.princeton.edu)
 * [Errata](http://algs4.cs.princeton.edu/errata/)
 
-# Solutions
+# Progress tracking
 
 Link prefix:
 * b - problem from the book;

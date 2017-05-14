@@ -3,7 +3,7 @@
 * [Book site](http://www.informit.com/store/c-plus-plus-primer-9780321714114)
 * [Errata](http://ptgmedia.pearsoncmg.com/images/9780321714114/errata/9780321714114_errata_10-31-12.html)
 
-# Solutions
+# Progress Tracking
 
 ### 1. Getting Started
 
