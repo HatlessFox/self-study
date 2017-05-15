@@ -3,7 +3,7 @@
 CHAPTER_DIR_PREFIX=ch_
 SOLUTION_PREFIX=solution_
 SOLUTION_EXTENSION=.cpp
-CXXFLAGS="-Wall -Wextra -Wpedantic"
+CXXFLAGS="-Wall -Wextra -Wpedantic -std=c++14"
 EXECUTABLE="soln"
 
 function prefix_num() {
@@ -14,8 +14,8 @@ function prefix_num() {
   fi
 }
 
-if [ $# -ne 2 ]; then
-  echo "Usage: run_solution <chapter #> <excercise #>"
+if [ $# -gt 3 ]; then
+  echo "Usage: run_solution <chapter #> <excercise #> [<#input]"
   exit -1
 fi
 
@@ -38,6 +38,11 @@ if [ $? -ne 0 ]; then
 fi
 
 echo Running...
-./$EXECUTABLE
+
+if [ $# -eq 3 ]; then
+  ./$EXECUTABLE < $3
+else
+  ./$EXECUTABLE
+fi
 echo status: $?
 rm $EXECUTABLE
