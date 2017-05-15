@@ -10,8 +10,14 @@
 Legend:
 * \+ - done, technical;
 * \* - done, interesting, review;
+* \! - done, think about result interpretation;
+* \~ - done, think about a shortcut solution;
 * \? - tried, haven't solved yet.
 
-### Chapter 1
+## 1. Vector Spaces
 
-#### Section A
+### A. R^n and C^n
+
+  1  |  2  | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F
+-----|-----|---|---|---|---|---|---|---|---|---|---|---|---|---
+ +\! | +\~ | + | + | + |
