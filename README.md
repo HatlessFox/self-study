@@ -6,3 +6,7 @@
 ### Problem Solving
 * Algorithms
   * [Algorithms, 4th (Sedgewick/Wayne)](problem_solving/algorithms/algorithms_4th-sedgewick_wayne)
+
+### Math
+* Linear Algebra
+  * [Linear Algebra Done Right, 3rd (Axler)](math/linear_algebra/la_done_right_3rd-axler)
