@@ -8,7 +8,7 @@
 # Progress tracking
 
 Legend:
-* + - done, technical;
+* \+ - done, technical;
 * \* - done, interesting, review;
 * \? - tried, haven't solved yet.
 
