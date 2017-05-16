@@ -13,7 +13,7 @@ Legend:
 * I - done, think about result interpretation;
 * S - done, think about a shortcut solution;
 * \- - tried, haven't solved yet;
-* z - filler
+* z - filler.
 
 ## 1. Vector Spaces
 
