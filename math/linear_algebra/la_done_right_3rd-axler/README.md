@@ -12,7 +12,7 @@ Legend:
 * \* - done, interesting, review;
 * \! - done, think about result interpretation;
 * \~ - done, think about a shortcut solution;
-* \? - tried, haven't solved yet.
+* \- - tried, haven't solved yet.
 
 ## 1. Vector Spaces
 
@@ -20,5 +20,5 @@ Legend:
 
 | 1  |  2  | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 
 -----|-----|---|---|---|---|---|---|---|----
-| +\!| +\~ | + | + | + | + | + | + | + | + 
+| \! | \~  | + | + | + | + | + | + | + | + 
 | +  | +   | + | + | + | + 
