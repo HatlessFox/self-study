@@ -13,7 +13,7 @@ Legend:
 * I - done, think about result interpretation;
 * S - done, think about a shortcut solution;
 * \- - tried, haven't solved yet;
-* z - filler.
+* @ - filler.
 
 ## 1. Vector Spaces
 
@@ -22,7 +22,7 @@ Legend:
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 
 ----|---|---|---|---|---|---|---|---|----
 | R | S | + | + | + | + | + | + | + | + 
-| + | + | + | + | + | + | z | z | z | z
+| + | + | + | + | + | + | @ | @ | @ | @
 
 ### B. Definition of Vector Space
 
