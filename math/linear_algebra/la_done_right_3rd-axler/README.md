@@ -9,7 +9,7 @@
 
 Legend:
 * \+ - done, technical;
-* R - done, interesting, review;
+* R - done, interesting, recap;
 * I - done, think about result interpretation;
 * S - done, think about a shortcut solution;
 * \- - tried, haven't solved yet;
@@ -28,7 +28,7 @@ Legend:
 
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 
 ----|---|---|---|---|---|---|---|---|----
-| + | + | + | + | I |   | @ | @ | @ | @
+| + | + | + | + | I | R | @ | @ | @ | @
 
 ### B. Subspaces
 
