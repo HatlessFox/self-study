@@ -10,7 +10,7 @@
 Legend:
 * \+ - done, technical;
 * R - done, interesting, recap;
-* I - done, think about result interpretation;
+* I - done, think about result interpretation/connections with other areas;
 * S - done, think about a shortcut solution;
 * \- - tried, haven't solved yet;
 * @ - filler.
@@ -34,4 +34,4 @@ Legend:
 
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 
 ----|---|---|---|---|---|---|---|---|----
-| + |
+| + | I |
