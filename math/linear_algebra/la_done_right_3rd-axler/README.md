@@ -9,15 +9,29 @@
 
 Legend:
 * \+ - done, technical;
-* \* - done, interesting, review;
-* \! - done, think about result interpretation;
-* \~ - done, think about a shortcut solution;
-* \? - tried, haven't solved yet.
+* R - done, interesting, recap;
+* C - done, think about result interpretation/connections with other areas;
+* S - done, think about a shortcut solution;
+* \- - tried, haven't solved yet;
+* @ - filler.
 
 ## 1. Vector Spaces
 
 ### A. R^n and C^n
 
-  1  |  2  | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F
------|-----|---|---|---|---|---|---|---|---|---|---|---|---|---
- +\! | +\~ | + | + | + |
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 
+----|---|---|---|---|---|---|---|---|----
+| R | S | + | + | + | + | + | + | + | + 
+| + | + | + | + | + | + | @ | @ | @ | @
+
+### B. Definition of Vector Space
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 
+----|---|---|---|---|---|---|---|---|----
+| + | + | + | + | C | R | @ | @ | @ | @
+
+### C. Subspaces
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 
+----|---|---|---|---|---|---|---|---|----
+| + | C | + | + | R | 
