@@ -10,6 +10,8 @@ Link prefix:
 * b - problem from the book;
 * w - problem from [the web site](http://algs4.cs.princeton.edu).
 
+TODO: tests (e.g. brute force validators for algos, invariant checks for data structores)
+
 ### Chapter 1
 
 #### Section 1
