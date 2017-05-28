@@ -8,12 +8,12 @@
 # Progress tracking
 
 Legend:
-* \+ - done, technical;
-* +R - done, interesting, recap;
-* +C - done, think about result interpretation/connections with other areas;
-* +S - done, think about a shortcut solution;
-* \- - tried, haven't solved yet;
-* @ - filler.
+* \+ = done, technical;
+* +R = done, interesting, recap;
+* +C = done, think about result interpretation/connections with other areas;
+* +S = done, think about a shortcut solution;
+* \- = tried, haven't solved yet;
+* @ = filler.
 
 ## 1. Vector Spaces
 
