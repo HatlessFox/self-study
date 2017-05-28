@@ -8,12 +8,12 @@
 # Progress tracking
 
 Legend:
-* \+ - done, technical;
-* R - done, interesting, recap;
-* C - done, think about result interpretation/connections with other areas;
-* S - done, think about a shortcut solution;
-* \- - tried, haven't solved yet;
-* @ - filler.
+* \+ = done, technical;
+* +R = done, interesting, recap;
+* +C = done, think about result interpretation/connections with other areas;
+* +S = done, think about a shortcut solution;
+* \- = tried, haven't solved yet;
+* @ = filler.
 
 ## 1. Vector Spaces
 
@@ -21,17 +21,17 @@ Legend:
 
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 
 ----|---|---|---|---|---|---|---|---|----
-| R | S | + | + | + | + | + | + | + | + 
+| +R | +S | + | + | + | + | + | + | + | + 
 | + | + | + | + | + | + | @ | @ | @ | @
 
 ### B. Definition of Vector Space
 
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 
 ----|---|---|---|---|---|---|---|---|----
-| + | + | + | + | C | R | @ | @ | @ | @
+| + | + | + | + | +C | +R | @ | @ | @ | @
 
 ### C. Subspaces
 
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 
 ----|---|---|---|---|---|---|---|---|----
-| + | C | + | + | R | 
+| + | +C | + | + | +C | +C | +R | +R |
