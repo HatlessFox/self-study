@@ -16,10 +16,10 @@
 
 ### 2. Variables and Basic Types
 
- 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---
-+  | + | + |[04](ch_02/solution_04.cpp)| + | + | + | + |[09](ch_02/solution_09.cpp)|[10](ch_02/solution_10.cpp)
-TODO|
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
+| +  | + | + |[04](ch_02/solution_04.cpp)| + | + | + | + |[09](ch_02/solution_09.cpp)|[10](ch_02/solution_10.cpp)|
+|TODO|
 
 ### 3. Strings, Vectors, and Arrays
 
