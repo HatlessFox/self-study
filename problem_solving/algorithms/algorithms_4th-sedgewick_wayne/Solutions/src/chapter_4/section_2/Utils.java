@@ -63,7 +63,7 @@ public class Utils {
     addEdges(g, 6, new int[]{28, 28, 13, 13});
     addEdges(g, 7, new int[]{44, 41});
     addEdges(g, 8, new int[]{19, 48});
-    addEdges(g, 9, new int[]{9, 30, 46});
+    addEdges(g, 9, new int[]{9, 30, 11, 46});
     addEdges(g, 10, new int[]{28, 28, 28, 29, 29, 41, 7, 0, 34});
     addEdges(g, 11, new int[]{30, 21});
     addEdges(g, 12, new int[]{26, 21, 21, 11, 9});
@@ -71,14 +71,14 @@ public class Utils {
     addEdges(g, 14, new int[]{8, 48, 21});
     addEdges(g, 15, new int[]{49, 34, 8});
     addEdges(g, 16, new int[]{9});
-    addEdges(g, 17, new int[]{20, 24, 48});
+    addEdges(g, 17, new int[]{20, 24, 38});
     addEdges(g, 18, new int[]{42, 28, 6, 32});
     addEdges(g, 19, new int[]{15, 40});
     addEdges(g, 20, new int[]{3, 38, 35, 46});
     addEdges(g, 21, new int[]{22});
     addEdges(g, 22, new int[]{6});
     addEdges(g, 23, new int[]{22, 21, 11});
-    addEdges(g, 24, new int[]{4, 5, 38});
+    addEdges(g, 24, new int[]{4, 5, 43, 38});
     addEdges(g, 25, new int[]{2, 34});
     addEdges(g, 26, new int[]{9, 12, 48, 16});
     addEdges(g, 27, new int[]{42, 31, 32, 5, 24});
@@ -88,7 +88,7 @@ public class Utils {
     addEdges(g, 31, new int[]{18, 32});
     addEdges(g, 32, new int[]{5, 6, 13, 47, 37});
     addEdges(g, 33, new int[]{8, 19, 2});
-    addEdges(g, 34, new int[]{29, 40, 2});
+    addEdges(g, 34, new int[]{29, 40, 2, 19});
     addEdges(g, 35, new int[]{37, 9, 46});
     addEdges(g, 36, new int[]{42, 20});
     addEdges(g, 37, new int[]{5, 47, 47, 9, 35});
