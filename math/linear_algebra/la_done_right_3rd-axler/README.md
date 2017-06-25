@@ -12,7 +12,7 @@ Legend:
 * +R = done, interesting, recap;
 * +C = done, think about result interpretation/connections with other areas;
 * +S = done, think about a shortcut solution;
-* \- = tried, haven't solved yet or made a mistake in solution;
+* \- = tried, haven't solved yet or made a mistake (unreviewed);
 * @ = filler.
 
 ## 1. Vector Spaces
@@ -51,7 +51,7 @@ Legend:
 
 | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 
 ---- |--- |--- |--- |--- |--- |--- |--- |--- |----
-TODO |
+  +  | +  | +  | +  | +S | +R |\-R | +R | @  | @
 
 ### C. Dimension
 
