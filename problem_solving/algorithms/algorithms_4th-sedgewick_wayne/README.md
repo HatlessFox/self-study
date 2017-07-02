@@ -57,3 +57,17 @@ Book
 Web
 
 TODO
+
+#### 4.3 Minimal Spanning Trees
+
+Book
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+----|---|---|---|---|---|---|---|---|----
+|[01](Solutions/src/chapter_4/section_3/Solution_01.java)|\~|[03](Solutions/src/chapter_4/section_3/Solution_03.java)|[04](Solutions/src/chapter_4/section_3/Solution_04.java)|[05](Solutions/src/chapter_4/section_3/Solution_05.java)|[06](Solutions/src/chapter_4/section_3/Solution_06.java)|[07](Solutions/src/chapter_4/section_3/Solution_07.java)|[08](Solutions/src/chapter_4/section_3/Solution_08.java)|[09](Solutions/src/chapter_4/section_3/Solution_09.java)|[10](Solutions/src/chapter_4/section_3/Solution_10.java)|
+|[11](Solutions/src/chapter_4/section_3/Solution_11.java)|[12](Solutions/src/chapter_4/section_3/Solution_12.java)R|[13](Solutions/src/chapter_4/section_3/Solution_13.java)|[14](Solutions/src/chapter_4/section_3/Solution_14.java)|[15](Solutions/src/chapter_4/section_3/Solution_15.java)|[16](Solutions/src/chapter_4/section_3/Solution_16.java)R|[17](Solutions/src/chapter_4/section_3/Solution_17.java)|[18](Solutions/src/chapter_4/section_3/Solution_18.java)|[19](Solutions/src/chapter_4/section_3/Solution_19.java)|[20](Solutions/src/chapter_4/section_3/Solution_20.java)R|
+|[21](Solutions/src/chapter_4/section_3/Solution_21.java)
+
+Web
+
+TODO
