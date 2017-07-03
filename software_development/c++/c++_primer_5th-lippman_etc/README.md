@@ -26,7 +26,9 @@
 
  1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
-TODO|
+|[01](ch_03/solution_01.cpp)|[02](ch_03/solution_02.cpp)|[03](ch_03/solution_03.cpp)|[04](ch_03/solution_04.cpp)|[05](ch_03/solution_05.cpp)|[06](ch_03/solution_06.cpp)|[07](ch_03/solution_07.cpp)|[08](ch_03/solution_08.cpp)|[09](ch_03/solution_09.cpp)|[10](ch_03/solution_10.cpp)|[11](ch_03/solution_11.cpp)|[12](ch_03/solution_12.cpp)|[13](ch_03/solution_13.cpp)|[14](ch_03/solution_14.cpp)|[15](ch_03/solution_15.cpp)|
+|[16](ch_03/solution_16.cpp)|[17](ch_03/solution_17.cpp)|[18](ch_03/solution_18.cpp)|[19](ch_03/solution_19.cpp)|[20](ch_03/solution_20.cpp)|[21](ch_03/solution_21.cpp)|[22](ch_03/solution_22.cpp)|[23](ch_03/solution_23.cpp)|[24](ch_03/solution_24.cpp)|[25](ch_03/solution_25.cpp)|[26](ch_03/solution_26.cpp)|[27](ch_03/solution_27.cpp)|[28](ch_03/solution_28.cpp)|[29](ch_03/solution_29.cpp)|[30](ch_03/solution_30.cpp)|
+|[31](ch_03/solution_31.cpp)|[32](ch_03/solution_32.cpp)|[33](ch_03/solution_33.cpp)|[34](ch_03/solution_34.cpp)|[35](ch_03/solution_35.cpp)|[36](ch_03/solution_36.cpp)|[37](ch_03/solution_37.cpp)|[38](ch_03/solution_38.cpp)|[39](ch_03/solution_39.cpp)|[40](ch_03/solution_40.cpp)|[41](ch_03/solution_41.cpp)|[42](ch_03/solution_42.cpp)|[43](ch_03/solution_43.cpp)|[44](ch_03/solution_44.cpp)|[45](ch_03/solution_45.cpp)|
 
 ### 4. Expressions
 

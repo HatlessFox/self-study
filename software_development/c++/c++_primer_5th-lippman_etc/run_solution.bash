@@ -15,7 +15,7 @@ function prefix_num() {
 }
 
 if [ $# -gt 3 ]; then
-  echo "Usage: run_solution <chapter #> <excercise #> [<#input]"
+  echo "Usage: run_solution <chapter #> <excercise #> [<input>]"
   exit -1
 fi
 
