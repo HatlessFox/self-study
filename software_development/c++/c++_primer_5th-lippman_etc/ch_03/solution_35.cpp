@@ -1,5 +1,5 @@
 /*
- * Exercise 3.36, p. 121.
+ * Exercise 3.35, p. 121.
  *
  * Using pointers, write a program to set the elements in an array to zero.
  */
