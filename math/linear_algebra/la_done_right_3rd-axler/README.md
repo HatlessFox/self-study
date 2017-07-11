@@ -60,7 +60,7 @@ Legend:
 | +  | +  | +  | +  | +  | +  | +  |  - | +  | +R
 | +  | +  | +R | +  | +R | +  |\~R | @  | @  | @
 
-## 2. Linear Maps
+## 3. Linear Maps
 
 ### A. The Vector Space of Linear Maps
 | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 
