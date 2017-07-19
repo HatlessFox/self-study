@@ -34,7 +34,10 @@
 
  1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
-TODO|
+|[01](ch_04/solution_01.cpp)|[02](ch_04/solution_02.cpp)|[03](ch_04/solution_03.cpp)|[04](ch_04/solution_04.cpp)|[05](ch_04/solution_05.cpp)|[06](ch_04/solution_06.cpp)|[07](ch_04/solution_07.cpp)|[08](ch_04/solution_08.cpp)|[09](ch_04/solution_09.cpp)|[10](ch_04/solution_10.cpp)|[11](ch_04/solution_11.cpp)|[12](ch_04/solution_12.cpp)|[13](ch_04/solution_13.cpp)|[14](ch_04/solution_14.cpp)|[15](ch_04/solution_15.cpp)|
+|[16](ch_04/solution_16.cpp)|[17](ch_04/solution_17.cpp)|[18](ch_04/solution_18.cpp)|[19](ch_04/solution_19.cpp)|[20](ch_04/solution_20.cpp)|[21](ch_04/solution_21.cpp)|[22](ch_04/solution_22.cpp)|[23](ch_04/solution_23.cpp)|[24](ch_04/solution_24.cpp)|[25](ch_04/solution_25.cpp)|[26](ch_04/solution_26.cpp)|[27](ch_04/solution_27.cpp)|[28](ch_04/solution_28.cpp)|[29](ch_04/solution_29.cpp)|[30](ch_04/solution_30.cpp)|
+|[31](ch_04/solution_31.cpp)|[32](ch_04/solution_32.cpp)|[33](ch_04/solution_33.cpp)|[34](ch_04/solution_34.cpp)|[35](ch_04/solution_35.cpp)R|[36](ch_04/solution_36.cpp)|[37](ch_04/solution_37.cpp)|[38](ch_04/solution_38.cpp)|@|@|@|@|@|@|@|
+
 
 ### 5. Statements
 
