@@ -8,9 +8,9 @@
   * [Paradigms of AI Programming (Norvig)](software_development/lisp/paradigms_of_ai_programming-norvig) (**Postponed**)
 ### Problem Solving
 * Algorithms
-  * [Algorithms, 4th (Sedgewick/Wayne)](problem_solving/algorithms/algorithms_4th-sedgewick_wayne) (*Work in progress*)
+  * [Algorithms, 4th (Sedgewick/Wayne)](problem_solving/algorithms/algorithms_4th-sedgewick_wayne) (**Postponed**)
 ### Math
 * Linear Algebra
   * [Coding the Matrix, 1st (Klein)](math/linear_algebra/coding_the_matrix-klein) (**Passed once**, TODO: Review & Clean up)
-  * [Linear Algebra Done Right, 3rd (Axler)](math/linear_algebra/la_done_right_3rd-axler) (*Work in progress*)
-  * [А Vector Space Approach to Geometry (Hausner)](math/linear_algebra/a_vector_space_approach_to_geometry-hausner) (*Work in progress*)
+  * [Linear Algebra Done Right, 3rd (Axler)](math/linear_algebra/la_done_right_3rd-axler) (**Postponed**)
+  * [А Vector Space Approach to Geometry (Hausner)](math/linear_algebra/a_vector_space_approach_to_geometry-hausner) (**Postponed**)
