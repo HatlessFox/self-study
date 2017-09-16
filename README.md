@@ -11,7 +11,7 @@
 * Algorithms
   * [Algorithms, 4th (Sedgewick/Wayne)](problem_solving/algorithms/algorithms_4th-sedgewick_wayne) (**Postponed**)
 * Misc
-  * [Competitive Programming, 3rd (Halim)](problem_solving/misc/competitive_programming_3rd-halim)
+  * [Competitive Programming, 3rd (Halim)](problem_solving/misc/competitive_programming_3rd-halim) (*Work in progress*)
 ### Math
 * Linear Algebra
   * [Coding the Matrix, 1st (Klein)](math/linear_algebra/coding_the_matrix-klein) (**Passed once**, TODO: Review & Clean up)
