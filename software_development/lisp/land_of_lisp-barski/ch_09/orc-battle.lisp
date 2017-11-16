@@ -1,0 +1,26 @@
+(load "ob-knight")
+(load "monsters")
+
+(defun randval (n) (1+ (random (max 1 n))))
+(defun orc-battle ()
+  (init-monsters)
+  (init-player)
+  (game-loop)
+  (fresh-line)
+  (when (player-dead)
+    (princ "You have been killed. Game Over."))
+  (when (monsters-dead)
+    (princ "Congratulations! You have vanquished all of your foes.")))
+
+(defun game-loop ()
+  (unless (or (player-dead) (monsters-dead))
+    ;; player attack
+    (show-player)
+    (dotimes (k (player-attack-num))
+      (unless (monsters-dead)
+        (show-monsters)
+        (player-attack)))
+    (fresh-line)
+    ;; mosters attack
+    (map 'list (lambda (m) (or (monster-dead m) (monster-attack m))) *monsters*)
+    (game-loop)))
