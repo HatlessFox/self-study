@@ -11,3 +11,7 @@
 ---|---|-|-|-|-|-|-|-|-|
 \+ | [+](ch_02) | \+ | \+ | [+](ch_05) | [+](ch_06) |[+](ch_07) |[+](ch_08) |[+](ch_09) |[+](ch_10) |
 [+](ch_11) | \+ | [?](ch_13) |
+
+## TODO
+
+* Fix ch. 13 code: server doesn't send "acceptable" http response according to the Chrome browser
