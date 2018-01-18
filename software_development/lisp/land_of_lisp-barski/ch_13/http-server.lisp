@@ -53,8 +53,10 @@
 
 ; Server
 
+(defparameter *server-port* 8080)
+
 (defun serve (request-handler)
-  (let ((socket (socket-server 8082)))
+  (let ((socket (socket-server *server-port*)))
     (unwind-protect
         (loop (with-open-stream (stream (socket-accept socket))
                 (let* ((url (parse-url (read-line stream)))
@@ -68,11 +70,17 @@
 
 ; "Page"
 
+(defun http-respond-ok (content)
+  (format t "HTTP/1.1 200 OK~%")
+  (format t "Content-Type: text/html~%")
+  (format t "Content-Length: ~a~%" (length content))
+  (format t "~%") ; done with header
+  (format t content))
+
 (defun hello-request-handler (path header params)
-  (if (equal path "greeting")
-      (let ((name (assoc 'name params)))
-        (if (not name)
-            (princ "<html><form>What is your name?
-                    <input name='name' /></form></html>")
-          (format t "<html>Nice to meet you, ~a!</html>" (rest name))))
-    (princ "Sorry... I don't know that page.")))
+  (let ((name (assoc 'name params)))
+    (http-respond-ok
+     (cond ((not (equal path "greeting")) "Sorry... I don't know that page.")
+           ((not name) "<html><form>What is your name?
+                        <input name='name' /></form></html>")
+           (t (format nil "<html>Nice to meet you, ~a!</html>" (rest name)))))))
