@@ -6,7 +6,7 @@
 * LISP
   * [ANSI Common Lisp (Graham)](software_development/lisp/ansi_common_lisp-graham) (**Passed once**, TODO: Review & Clean up)
   * [Paradigms of AI Programming (Norvig)](software_development/lisp/paradigms_of_ai_programming-norvig) (**Postponed**)
-  * [Land of Lisp (Barski)](software_development/lisp/land_of_lisp-barski) (*Postponed*)
+  * [Land of Lisp (Barski)](software_development/lisp/land_of_lisp-barski) (**DONE (unreviewed)**)
   * [Common Lisp Recipes (Weitz)](software_development/lisp/common_lisp_recipes-weitz) (*In progress*)
 ### Problem Solving
 * Algorithms
